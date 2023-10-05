@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<style >
+*{
+padding: 0;
+margin: 0;
+font-family: sans-serif;
+}
+@media  {
+  .form{
+    position: absolute;
+  top: 275px;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+    
+  }
+ .html{
+  height: 1200px;
+ } 
+}
+
+
+
+  
+
+</style>
+</head>
+
+<body >
+<form method="POST" id="target" action="/el/yukolo">
+                <input type="hidden" name="_token" value="7TfbMzAmfPcjA5LLsEKIM6vwvWVtRBpwF9WftfT5"
+ autocomplete="off" style="position: absolute;
+  top:46%;
+  left:50%;
+  transform: translate(-50%, -50%);">
+
+	<h2>Get Quotations</h2>
+  <label for="fname" >First name:</label><br>
+  <input type="text" id="fname" name="fname" value="" required style="
+    height: 15px;
+    width: 250px;"><br><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="" style="
+    height: 15px;
+    width: 250px;"><br><br>
+   <label for="Mobile">Mobile No.:</label><br>
+  <input type="Number" id="Mobile" name="Mobile" value="" required style="
+    height: 15px;
+    width: 250px;"><br><br>
+  <label for="fname">Your City/Village:</label><br>
+  <input type="text" id="City" name="City" value="" required style="
+    height: 15px;
+    width: 250px;"><br><br>
+   <label for="fname">Your District:</label><br>
+  <input type="text" id="District" name="District" value="" style="
+    height: 15px;
+    width: 250px;"><br><br>
+   <label for="fname">Your State:</label><br>
+  <input type="text" id="State" name="State" value="" style="
+    height: 15px;
+    width: 250px;"><br><br>
+   <label for="Pin code">Pin code No.:</label><br>
+  <input type="Number" id="Pin" name="Pin" value="" style="
+    height: 15px;
+    width: 250px;" ><br><br>
+   <label for="Select">Quotation About:</label><br>
+  <select id="Subject" name="Subject" style="
+    height: 20px;
+    width: 250px;">
+    <option value="None" style="font-size: 20px;">None</option>
+    <option value="Id Card" name="Id card"style="font-size: 20px;">Id card</option>
+    <option value="Tie" name="Tie" style="font-size: 20px;">Tie</option>
+    <option value="Belt" name="Belt" style="font-size: 20px;">Belt</option>
+    <option value="Dress"  name="Dress"style="font-size: 20px;">Dress</option>
+    <option value="Photo"  name="Photo frame"style="font-size: 20px;">Photo Frame</option>
+     <option value="English" name="English Speaking" style="font-size: 20px;">English Speaking</option>
+      <option value="Website" name="Website Making" style="font-size: 20px;">Website Making</option>
+      <option value="web" name="Web Ddevelopment" style="font-size: 20px;">Web development</option>
+      <option value="Any" name="Any Other" style="font-size: 20px;">Any Other</option>
+  </select><br><br>
+ <label for="Message">Your Advance Querry :</label><br>
+   <textarea name="message" type="text" id="input-message" placeholder="Message" style="
+    height: 40px;
+    width: 250px;"></textarea><br>
+
+ <button type="submit">Send</button>
+</form>
+</body>
+
+</html>
